@@ -1,14 +1,4 @@
 function NavBar() {
-  const [classActive, setClassActive] = React.useState("");
-  const [active, setActive] = React.useState(false);
-  function handleClick(e) {
-    setActive(!active);
-    if (active) {
-      setClassActive("active");
-    } else {
-      setClassActive("");
-    }
-  }
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
